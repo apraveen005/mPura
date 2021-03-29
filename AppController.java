@@ -15,7 +15,7 @@ import com.example.demo.model.Alien;
 //Angel Comment
 
 //jc kjgsdgkfgkjjk
-main
+
 //shetty comment
 //@Controller praveen
 @Controller
