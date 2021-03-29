@@ -11,7 +11,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.example.demo.business.ProductService;
 import com.example.demo.model.Alien;
-//This is Shetty Controller
+//shetty comment
+//@Controller praveen
 @Controller
 public class AppController {
 
@@ -24,7 +25,7 @@ public class AppController {
 		model.addAttribute("listItems", listProducts);
 		return "index";
 	}
-
+//comment line
 	@GetMapping("/new")
 	public String showItem(Model model) {
 		Alien alien = new Alien();
