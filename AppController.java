@@ -54,7 +54,7 @@ public class AppController {
 		return mv;
 	}
 
-	@GetMapping("/delete/{aid}")
+	@GetMapping("/delete/{aid}")  //Deleting the table
 	public String deleteItem(@PathVariable(name ="aid") int aid) {
 		service.delete(aid);
 		return "redirect:/";       
